@@ -4,6 +4,9 @@ language: cpp
 compiler:
   - gcc
 
+before_install:
+    - sudo apt-get install -qq libboost1.54-dev
+
 install: true
 
 env:
